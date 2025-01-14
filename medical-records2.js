@@ -62,13 +62,13 @@ document.addEventListener("DOMContentLoaded", () => {
     // Add Patient Button Actions (you can customize these for your needs)
     document.querySelector(".new-patient").addEventListener("click", () => {
         // alert("Redirecting to 'Add New Patient' page...");
-        window.location.href = "add-patient.html"; 
+        window.location.href = "form.html"; 
         // Add functionality to redirect to the "Add New Patient" page
     });
 
     document.querySelector(".existing-patient").addEventListener("click", () => {
         // alert("Redirecting to 'Existing Patient Details' page...");
-        window.location.href = "add-patient.html";  
+        window.location.href = "form.html";  
         // Add functionality to redirect to the "Existing Patient" page
     });
 });
