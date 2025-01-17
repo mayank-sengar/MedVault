@@ -71,4 +71,11 @@ document.addEventListener("DOMContentLoaded", () => {
         window.location.href = "form.html";  
         // Add functionality to redirect to the "Existing Patient" page
     });
+
+    document.querySelector(".view-patient").addEventListener("click", () => {
+        // alert("Redirecting to 'Existing Patient Details' page...");
+        window.location.href = "details.html";  
+        // Add functionality to redirect to the "Existing Patient" page
+    });
+
 });
