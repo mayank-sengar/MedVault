@@ -685,8 +685,8 @@ async function generateCaseNumber(db) {
 
             try {
                 alert("inside try block")
-                await addDoc(collection(db, "trial2",casenum), formData);
-                // await setDoc(doc(db, "PatientDetails", casenum), formData);
+                //await addDoc(collection(db, "trial2",casenum), formData);
+                await setDoc(doc(db, "trial2", casenum), formData);
                 alert("Form submitted successfully!");
                 document.getElementById('patient-form').reset();
                 alert("Redirecting to Medicine Suggestion page");
