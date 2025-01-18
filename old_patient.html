@@ -777,10 +777,10 @@ header nav a:hover {
             const caseKey = String(`case${d}`);
 
             const medprb = {
-                    description: document.getElementById("problem").value,
-                    category: document.getElementById("category").value,
-                    duration: document.getElementById("tspan").value,
-                    prior: document.querySelector('input[name="consult_ans"]:checked')?.nextSibling.textContent.trim(),
+                    description: document.getElementById("problem").value || "not mentioned",
+                    category: document.getElementById("category").value || "not mentioned" ,
+                    duration: document.getElementById("tspan").value || "not mentioned",
+                    prior: document.querySelector('input[name="consult_ans"]:checked')?.nextSibling.textContent.trim() || "No",
                     priorMedication: document.getElementById("prm").value || "No Medication before",
                     feedback: document.getElementById("fdbk").value || "No Medication before",
                 };
