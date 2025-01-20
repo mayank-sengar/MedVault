@@ -16,6 +16,8 @@ padding: 10px 20px;
 display: flex;
 justify-content: space-between;
 align-items: center;
+width:100%;
+flex-wrap: wrap;
 }
 header nav a {
 color: white;
@@ -150,5 +152,12 @@ hr {
 
     #patientDetails p {
         font-size: 14px;
+    }
+    header nav{
+        margin:0 auto;
+    }
+    header h1{
+       
+        margin: 0 auto;
     }
 }
