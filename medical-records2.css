@@ -98,6 +98,7 @@ button:hover {
     padding: 20px;
     animation: fadeIn 1.5s ease-in-out;
     height: 200px;
+    width:50%;
 }
 
 .add-details h2 {
@@ -118,12 +119,12 @@ button:hover {
         flex-direction: column; 
         align-items: center; 
         gap: 10px;
-        margin-top: 20px; /
+        margin-top: 20px; 
 } 
 
 .patient-records{
     background: white;
-    width:100%;
+    width:50%;
     height:120px;
     border-radius: 10px;
     padding-bottom: 10px;
