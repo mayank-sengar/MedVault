@@ -19,10 +19,8 @@
             color: white;
             padding: 10px 20px;
             display: flex;
-            flex-wrap:wrap;
             justify-content: space-between;
             align-items: center;
-            width:100vw;
         }
         header nav a {
             color: white;
@@ -80,31 +78,30 @@
             color: #f1f1f1;
             margin-top: auto;
             background: #28a745;
-            width:100vw;
         }
         #description {
             font-family: "Helvetica, Arial, Georgia, Tahoma, Roboto";
         }
-        /* Responsive Design */
         @media (max-width: 768px) {
-            header nav{
-                margin:0 auto;
+            header {
+                flex-direction: column;
+                align-items: flex-start;
             }
-            header h1{
-                margin: 0 auto;
+            header nav {
+                flex-wrap: wrap;
             }
-            .hero{
-                max-width:90%;
-                display:flex;
-                flex-direction: column-reverse;
-            }
-            .text{
+            .hero {
+                flex-direction: column;
                 text-align: center;
             }
-            #description{
-                max-width:90vw;
+            .hero-text {
+                max-width: 100%;
+            }
+            .cta-button {
+                margin: 20px 0;
             }
         }
+        
     </style>
 </head>
 <body>
