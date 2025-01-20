@@ -17,8 +17,10 @@ header {
     color: white;
     padding: 10px 20px;
     display: flex;
+    flex-wrap:wrap;
     justify-content: space-between;
     align-items: center;
+    width:100vw;
 }
 header nav a {
     color: white;
@@ -31,7 +33,7 @@ header nav a:hover {
 }
 
 .container {
-   width: 500px;
+    width: 100vw;
     margin: 50px auto;
     text-align: center;
     animation: fadeIn 1s ease-in-out;
@@ -172,5 +174,15 @@ footer {
     }
     100% {
         transform: scale(1);
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header nav{
+        margin:0 auto;
+    }
+    header h1{
+        margin: 0 auto;
     }
 }
