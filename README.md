@@ -27,9 +27,12 @@ To access our website:
 2. Log in using the following credentials:
    -Email: sampleIEEE@mail.com
    -Password: 123456
+3. Then go to medical records and select any case number, or create a new record with a different web generated case number.
 4. Use the dashboard to Navigate and use various functionalities
    - Add new patient records.
    - View and update existing records.
+5. However we insist you to use case number AA0003 or AA0018 if you need to see any exixting records because all the       
+   necessary fields are filled with us in those cases.
 
 ---
 
