@@ -1,4 +1,4 @@
-# MedVault
+# [MedVault](https://mayank-sengar.github.io/MedVault/)
 
 ## About MedVault
 MedVault is a Medical Database Management System designed for doctors to efficiently manage patient records. Our platform provides a streamlined and secure way to handle medical data, offering features like adding, editing, and retrieving patient details with ease.
@@ -23,7 +23,7 @@ BIRLA INSTITUTE OF TECHNOLOGY MESRA, RANCHI-835215
 ## Accessing the Website
 To access our website:
 
-1. Visit: [MedVault URL](#) .
+1. Visit: [MedVault URL](https://mayank-sengar.github.io/MedVault/) .
 2. Log in using your credentials or sign up if you are a new user.
 3. Use the dashboard to:
    - Add new patient records.
