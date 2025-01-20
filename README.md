@@ -20,12 +20,14 @@ BIRLA INSTITUTE OF TECHNOLOGY MESRA, RANCHI-835215
 
 ---
 
-## Accessing the Website
+## Steps for accessing the Website
 To access our website:
 
 1. Visit: [MedVault URL](https://mayank-sengar.github.io/MedVault/) .
-2. Log in using your credentials or sign up if you are a new user.
-3. Use the dashboard to:
+2. Log in using the following credentials:
+   Email: sampleIEEE@mail.com
+   Password: 123456
+4. Use the dashboard to Navigate and use various functionalities
    - Add new patient records.
    - View and update existing records.
 
