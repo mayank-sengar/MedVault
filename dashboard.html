@@ -19,8 +19,10 @@
             color: white;
             padding: 10px 20px;
             display: flex;
+            flex-wrap:wrap;
             justify-content: space-between;
             align-items: center;
+            width:100vw;
         }
         header nav a {
             color: white;
@@ -81,6 +83,15 @@
         }
         #description {
             font-family: "Helvetica, Arial, Georgia, Tahoma, Roboto";
+        }
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header nav{
+                margin:0 auto;
+            }
+            header h1{
+                margin: 0 auto;
+            }
         }
     </style>
 </head>
