@@ -275,6 +275,32 @@ footer {
     color: white;
     font-size: 14px;
     margin-top: auto;
-    
-   
   }
+button{
+    background-color: #068e0a;
+    color:white;
+    font-family: monospace;
+}
+button:hover{
+    background-color: #4CAF50;
+}
+@media (max-width: 768px) {
+    #patient-form{
+        width:100vw;
+        overflow:hidden;
+    }
+    #row{
+        display:flex;
+        /* flex-direction:row;
+        flex-wrap: wrap; */
+        flex-direction:column;
+    }
+    #qna{
+        display:flex;
+        flex-direction: column;
+    }
+    #qna2{
+        display:flex;
+        flex-direction: column;
+    }
+}
