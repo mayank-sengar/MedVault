@@ -32,7 +32,7 @@ To access our website:
    - Add new patient records.
    - View and update existing records.
 5. However we insist you to use case number AA0003 or AA0018 if you need to see any exixting records because all the       
-   necessary fields are filled with us in those cases.
+   required fields are filled by us in those cases.
 
 ---
 
