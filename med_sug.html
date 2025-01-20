@@ -117,6 +117,7 @@
                 <div id="medicine-prescribed">
                     <label for="caseno">enter casenumber here:</label>
                     <input type="text" id = "caseno">
+                    <input type="date" id = "toDate" style = "margin-left: 10%;" required>
                     <textarea name="med_presc" id="med_presc" placeholder="enter your prescribed medicine here" rows = "10" cols = "80"></textarea>
                     <button type  = "submit" name = "submit" id="but">STORE IN RECORDS</button>
                 </div>
@@ -177,7 +178,10 @@
         let caseKey = localStorage.getItem("caseKey");
         //casekey is date
         // caseKey = caseKey? caseKey:String(`case${format(new Date(), "yyyy-MM-dd")}`);
-        caseKey = caseKey? caseKey:String(`case${new Date()}`);
+        const d = document.getElementById("toDate").value.trim();
+        caseKey = caseKey?caseKey:String(`case${d}`);
+        if(caseKey === "")
+            caseKey  = String(`case${d}`);
         localStorage.clear();
     
         // Function to fetch the last stored case number
