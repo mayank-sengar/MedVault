@@ -25,8 +25,8 @@ To access our website:
 
 1. Visit: [MedVault URL](https://mayank-sengar.github.io/MedVault/) .
 2. Log in using the following credentials:
-   Email: sampleIEEE@mail.com
-   Password: 123456
+   -Email: sampleIEEE@mail.com
+   -Password: 123456
 4. Use the dashboard to Navigate and use various functionalities
    - Add new patient records.
    - View and update existing records.
